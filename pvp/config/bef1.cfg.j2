@@ -10,3 +10,11 @@ sourcetvport={{ sourcetvport_bef1 }}
 defaultmap="market"
 maxplayers={{ maxplayers_bef1 }}
 servercfg={{ servercfg_bef1 }}
+pure="2"
+
+## Server Start Command | https://github.com/GameServerManagers/LinuxGSM/wiki/Start-Parameters#additional-parameters
+fn_parms(){
+parms="-game insurgency -strictportbind -ip ${ip} -port ${port} +clientport ${clientport} +tv_port ${sourcetvport} -tickrate ${tickrate} +sv_setsteamaccount ${gslt} +map ${defaultmap} 
++sv_pure ${pure} +servercfgfile ${servercfg} -maxplayers ${maxplayers} +sv_workshop_enabled ${workshop} -norestart"
+}
+
