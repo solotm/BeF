@@ -9,4 +9,13 @@ buhriz push
 district push
 siege push
 revolt push
+contact push
 verticality push
+drycanal push
+embassy push
+contact push
+kandagal push
+station occupy
+tell occupy
+
+
